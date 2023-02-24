@@ -64,7 +64,7 @@ jobs:
 
   integration:
     runs-on: ubuntu-latest
-    needs: oast-frontend
+    needs: container_scanning
     steps:
       - run: echo "This is an integration step"
       - run: exit 1
